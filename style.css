@@ -1,0 +1,51 @@
+body {
+
+    background: linear-gradient(
+        to right,
+        #141e30,
+        #243b55
+    );
+
+    font-family: Arial, sans-serif;
+
+    color: white;
+}
+
+.hero-section {
+
+    padding: 50px;
+}
+
+.main-title {
+
+    font-size: 60px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.custom-card {
+
+    background: white;
+
+    color: black;
+
+    border-radius: 20px;
+
+    padding: 40px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+
+    transition: 0.3s;
+}
+
+.custom-card:hover {
+
+    transform: translateY(-5px);
+}
+
+.btn {
+
+    border-radius: 10px;
+}
